@@ -68,9 +68,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="src\app\app.component.js" />
-    <Content Include="src\app\app.component.spec.js" />
-    <Content Include="src\app\app.module.js" />
     <Content Include="src\favicon.ico" />
     <Content Include="src\index.html" />
     <Content Include="src\main.js" />
@@ -87,9 +84,6 @@
     <Content Include="bs-config.json" />
     <Content Include="package.json" />
     <None Include="packages.config" />
-    <Content Include="src\app\app.component.js.map" />
-    <Content Include="src\app\app.component.spec.js.map" />
-    <Content Include="src\app\app.module.js.map" />
     <Content Include="src\main.js.map" />
     <Content Include="src\tsconfig.json" />
     <Content Include="tslint.json" />
