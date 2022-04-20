@@ -6,7 +6,9 @@ import {Component} from "@angular/core"
 })
 export class AppComponent {
     pageHeader: string = "Employee Details";
-    imagePath: string = "https://www.pragimtech.com/wp-content/uploads/2019/02/pargim-logo-1.png";
+    imagePath: string = "/wp-content/uploads/2019/02/pargim-logo-1.png";
+    isDisabled: boolean = false;
+    badHtml: string = "<script>alert('Hacked')</script>";
 
     firstName: string = 'Tom';
     lastName: string = 'Hopkins';
