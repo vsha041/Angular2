@@ -1,9 +1,11 @@
 ﻿<div>
-    <button [class]="classesToApply">My Button</button>
+    <button style="color:red" [style.fontWeight]="isBold ? 'bold' : 'normal'">My Button</button>
     <br />
     <br />
-    <button class="colorClass italicsClass boldClass" [class.boldClass]="!applyBoldClass">My Button</button>
+    <button style="color:red" [style.font-size.px]="fontSize">My Button</button>
     <br />
     <br />
-    <button class="colorClass" [ngClass]="addClasses()">My Button</button>
+    <button style="color:red" [ngStyle]="addStyles()">My Button</button>
+    <br />
+    <br />
 </div>
