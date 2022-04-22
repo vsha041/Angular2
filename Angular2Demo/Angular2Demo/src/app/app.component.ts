@@ -5,15 +5,16 @@ import {Component} from "@angular/core"
     templateUrl: 'app/app.component.html'
 })
 export class AppComponent {
-    pageHeader: string = "Employee Details";
-    imagePath: string = "/wp-content/uploads/2019/02/pargim-logo-1.png";
-    isDisabled: boolean = false;
-    badHtml: string = "<script>alert('Hacked')</script>";
+    classesToApply: string = 'boldClass italicsClass';
+    applyBoldClass: boolean = true;
+    applyItalicsClass: boolean = true;
 
-    firstName: string = 'Tom';
-    lastName: string = 'Hopkins';
+    addClasses() {
+        const classes = {
+            boldClass: this.applyBoldClass,
+            italicsClass: this.applyItalicsClass
+        };
 
-    getFullName(): string {
-        return this.firstName + " " + this.lastName;
+        return classes;
     }
 }

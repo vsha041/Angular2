@@ -1,3 +1,9 @@
 ﻿<div>
-    <my-employee></my-employee>
+    <button [class]="classesToApply">My Button</button>
+    <br />
+    <br />
+    <button class="colorClass italicsClass boldClass" [class.boldClass]="!applyBoldClass">My Button</button>
+    <br />
+    <br />
+    <button class="colorClass" [ngClass]="addClasses()">My Button</button>
 </div>
