@@ -1,11 +1,9 @@
 ﻿<div>
-    <button style="color:red" [style.fontWeight]="isBold ? 'bold' : 'normal'">My Button</button>
+    <button (click)='onClick()'>My Button</button>
     <br />
     <br />
-    <button style="color:red" [style.font-size.px]="fontSize">My Button</button>
+    <button on-click='onClick()'>My Button 2</button>
     <br />
     <br />
-    <button style="color:red" [ngStyle]="addStyles()">My Button</button>
-    <br />
-    <br />
+    <my-employee></my-employee>
 </div>

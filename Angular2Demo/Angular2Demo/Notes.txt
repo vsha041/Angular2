@@ -1,0 +1,9 @@
+﻿These bindings flow data from component to html
+
+-Interpolation
+-Property Binding
+-Attribute Binding
+-Class Binding
+-Style Binding
+
+Event binding flows data in opposite direction - html to component

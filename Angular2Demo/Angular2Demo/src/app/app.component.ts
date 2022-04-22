@@ -5,17 +5,7 @@ import {Component} from "@angular/core"
     templateUrl: 'app/app.component.html'
 })
 export class AppComponent {
-    isBold: boolean = true;
-    fontSize: number = 50;
-    isItalic: boolean = true;
-
-    addStyles() {
-        let styles = {
-            'font-size.px': this.fontSize,
-            'font-style': this.isItalic ? 'italic' : 'normal',
-            'font-weight': this.isBold ? 'bold' : 'normal'
-        }
-
-        return styles;
+    onClick() {
+        console.log("button clicked");
     }
 }
