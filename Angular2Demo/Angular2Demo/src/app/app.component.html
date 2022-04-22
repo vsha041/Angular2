@@ -1,9 +1,12 @@
 ﻿<div>
-    <button (click)='onClick()'>My Button</button>
+    Name : <input [value]="name" (input)='name=$event.target.value' />
+    <br />
+    You entered: {{name}}
+
     <br />
     <br />
-    <button on-click='onClick()'>My Button 2</button>
+
+    Name : <input [(ngModel)]='name' />
     <br />
-    <br />
-    <my-employee></my-employee>
+    You entered: {{name}}
 </div>

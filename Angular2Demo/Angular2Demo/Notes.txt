@@ -1,4 +1,4 @@
-﻿These bindings flow data from component to html
+﻿1. These bindings flow data from component to html
 
 -Interpolation
 -Property Binding
@@ -6,4 +6,6 @@
 -Class Binding
 -Style Binding
 
-Event binding flows data in opposite direction - html to component
+2. Event binding flows data in opposite direction - html to component
+
+3. Two way data binding is a combination of both property binding and event binding.
