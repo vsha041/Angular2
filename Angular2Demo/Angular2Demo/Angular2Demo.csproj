@@ -72,6 +72,8 @@
     <Content Include="src\app\app.component.html" />
     <Content Include="src\app\employee\employee.component.css" />
     <Content Include="src\app\employee\employee.component.html" />
+    <Content Include="src\app\employee\employeeCount.component.css" />
+    <Content Include="src\app\employee\employeeCount.component.html" />
     <Content Include="src\app\employee\employeeList.component.css" />
     <Content Include="src\app\employee\employeeList.component.html" />
     <Content Include="src\favicon.ico" />
@@ -107,6 +109,7 @@
     <Fakes Include="src\app\employee\employee.component.ts" />
     <Fakes Include="src\app\employee\employeeList.component.ts" />
     <Fakes Include="src\app\employee\employeeTitle.pipe.ts" />
+    <Fakes Include="src\app\employee\employeeCount.component.ts" />
     <TypeScriptCompile Include="src\main.ts" />
   </ItemGroup>
   <ItemGroup>
