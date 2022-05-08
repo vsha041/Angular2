@@ -110,6 +110,7 @@
     <Fakes Include="src\app\employee\employeeList.component.ts" />
     <Fakes Include="src\app\employee\employeeTitle.pipe.ts" />
     <Fakes Include="src\app\employee\employeeCount.component.ts" />
+    <Fakes Include="src\app\employee\employee.ts" />
     <TypeScriptCompile Include="src\main.ts" />
   </ItemGroup>
   <ItemGroup>
