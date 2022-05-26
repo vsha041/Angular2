@@ -4,9 +4,6 @@
     gender: string;
     annualSalary: number;
     dateOfBirth: string;
-    department?: string;
-
-    computeMonthlySalary(annualSalary: number): number;
 }
 
 //export class Employee implements IEmployee {

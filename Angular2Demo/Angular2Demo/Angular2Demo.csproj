@@ -87,6 +87,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <TypeScriptCompile Include="src\app\employee\employee.service.ts" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="bs-config.json" />
